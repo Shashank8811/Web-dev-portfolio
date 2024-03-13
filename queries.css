@@ -75,7 +75,7 @@
     height: 85vh;
   }
   .about-info {
-    gap: 24px;
+    gap: 18px;
   }
   .abt-img {
     display: none;
@@ -88,21 +88,21 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
   }
 }
 
 @media (max-width: 435px) {
   .section-hero {
     padding: 0 6%;
-    height: 72vh;
+    height: 55vh;
     background-image: url("assests/bg-mob.jpg");
     background-size: cover;
   }
   .container {
-    padding-top: 64px;
+    /* padding-top: 64px; */
     display: flex;
-    height: 64vh;
+    height: 50vh;
     align-items: center;
     justify-content: center;
   }
@@ -112,33 +112,49 @@
     justify-content: flex-start;
     align-items: flex-start;
   }
-  .text {
-    font-size: 48px;
+  #text {
+    text-align: center;
+    line-height: 1.4;
+    font-size: 18px;
   }
 
   .other-text {
-    font-size: 12px;
+    line-height: 1.2;
+    font-size: 14px;
     font-weight: 500;
   }
   .hero-img {
     display: none;
   }
   .other-links {
+    margin-top: 6px;
     gap: 16px;
   }
   .getin,
   .downcv {
     padding: 6px 8px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .section-about {
-    margin-top: 4px;
+    margin-top: 6px;
+    height: 70vh;
     padding: 0 8%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
   }
   .about-container {
-    height: 75vh;
+    height: 60vh;
+    box-shadow: none;
+  }
+  .secondary-heading {
+    font-size: 28px;
+  }
+  .heading-3 {
+    font-size: 18px;
+  }
+  .about-text,
+  .more-about-text {
+    font-size: 14px;
   }
 }
