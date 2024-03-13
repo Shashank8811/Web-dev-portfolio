@@ -71,7 +71,9 @@
   .hero-image {
     height: 75vh;
   }
-
+  .section-about {
+    height: 85vh;
+  }
   .about-info {
     gap: 24px;
   }
@@ -108,10 +110,10 @@
     display: flex;
     gap: 16px;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
   }
   .text {
-    font-size: 42px;
+    font-size: 48px;
   }
 
   .other-text {
@@ -128,5 +130,15 @@
   .downcv {
     padding: 6px 8px;
     font-size: 12px;
+  }
+  .section-about {
+    margin-top: 4px;
+    padding: 0 8%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .about-container {
+    height: 75vh;
   }
 }
