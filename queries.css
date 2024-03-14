@@ -108,7 +108,7 @@
   }
   .info {
     display: flex;
-    gap: 16px;
+    gap: 26px;
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -123,18 +123,22 @@
     align-items: center;
   }
   .other-text {
-    display: none;
+    /* display: none; */
+    text-align: center;
     line-height: 1.2;
     font-size: 14px;
     font-weight: 500;
   }
+
   .hero-img {
     display: none;
   }
+
   .other-links {
-    margin-top: 6px;
+    margin-top: 10px;
     gap: 14px;
   }
+
   .getin,
   .downcv {
     padding: 6px 8px;
