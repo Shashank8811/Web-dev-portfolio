@@ -117,8 +117,13 @@
     line-height: 1.4;
     font-size: 18px;
   }
-
+  .hero-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .other-text {
+    display: none;
     line-height: 1.2;
     font-size: 14px;
     font-weight: 500;
@@ -128,7 +133,7 @@
   }
   .other-links {
     margin-top: 6px;
-    gap: 16px;
+    gap: 14px;
   }
   .getin,
   .downcv {
@@ -138,7 +143,7 @@
   .section-about {
     margin-top: 6px;
     height: 70vh;
-    padding: 0 8%;
+    padding: 0 5%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -148,13 +153,13 @@
     box-shadow: none;
   }
   .secondary-heading {
-    font-size: 28px;
+    font-size: 20px;
   }
   .heading-3 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .about-text,
   .more-about-text {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
