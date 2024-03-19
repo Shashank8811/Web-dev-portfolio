@@ -91,6 +91,20 @@ a {
   align-items: center;
   justify-content: center;
 }
+#text {
+  animation: animatetext 3s 1 ease-in;
+}
+@keyframes animatetext {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .hero-info {
   display: flex;
   gap: 16px;
@@ -99,12 +113,32 @@ a {
 }
 .other-text {
   font-size: 14px;
+  animation: animate-other 2s 1 alternate ease-in-out;
 }
 .other-links {
+  text-align: center;
   margin-top: 6px;
   display: flex;
   gap: 24px;
 }
+@keyframes animate-other {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .getin,
 .downcv {
   padding: 8px 10px;
@@ -115,9 +149,14 @@ a {
   font-size: 16px;
   font-weight: 500;
 }
+.icon-down {
+  text-align: center;
+  font-size: 16px;
+  margin-right: 4px;
+}
 .getin:hover,
 .downcv:hover {
-  background-color: #e7f2fa;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 .hero-img {
   display: flex;
@@ -185,4 +224,180 @@ a {
 .about-text,
 .more-about-text {
   font-size: 16px;
+}
+
+/* ...............section-projects................. */
+.section-projects {
+  padding: 0 8%;
+  background-color: #e7effa;
+}
+.project-cards {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  height: 70vh;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 6px 8px;
+  align-items: center;
+  width: 330px;
+  height: 260px;
+  background-color: rgb(247, 244, 240);
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s;
+}
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.project-links {
+  margin-top: 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+.pro-img {
+  width: 280px;
+  height: 160px;
+  border-radius: 4px;
+}
+.h4-text {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.view-code,
+.view-demo {
+  padding: 6px 8px;
+  background-color: #9ce5ea;
+  border-radius: 6px;
+  font-size: 16px;
+  color: black;
+}
+
+.see-more {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  border-bottom: 2px solid rgb(44, 43, 42);
+}
+
+.section-contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 8%;
+  height: 100vh;
+  overflow: hidden;
+}
+.container-contact {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-profiles {
+  display: flex;
+  gap: 15px;
+  justify-content: space-around;
+}
+
+.s-link {
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  border-radius: 50%;
+  border: none;
+
+  background-color: #0791d6;
+  color: #fff;
+}
+.s-link:active,
+.s-link:hover {
+  background-color: #0b65a0;
+  background-image: linear-gradient(
+    145deg,
+    #0b65a0 0%,
+    #50d6ba 33%,
+    #1bc4f2 66%,
+    #242750 100%
+  );
+}
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+input,
+textarea {
+  font-size: 16px;
+  padding: 10px;
+  width: 330px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+textarea {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.btn-submit {
+  font-size: 16px;
+  padding: 10px;
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+}
+.btn-submit:active,
+.btn-submit:hover {
+  background-color: #0cc14f;
+  border: 1px solid #0cc14f;
+}
+
+/* .............section-footer.................. */
+
+.section-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  padding: 0 8%;
+  height: 30vh;
+  color: #fff;
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 48px;
+  align-items: center;
+}
+
+.nav-list-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.fic-mail {
+  color: #0974b3;
 }

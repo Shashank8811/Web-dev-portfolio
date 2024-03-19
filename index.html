@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shashank's Portfolio</title>
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="queries.css" />
   </head>
@@ -28,7 +29,10 @@
         <div class="container">
           <div class="info">
             <div class="hero-info">
-              <h1 id="text"></h1>
+              <h1 id="text">
+                "Hello, I'm SHASHANK a front end developer on a mission to
+                create user-friendly, efficient and responsive websites."
+              </h1>
               <p class="other-text">
                 In the realm of web development, where creativity merges
                 seamlessly with technical prowess, I bring a unique perspective
@@ -44,7 +48,11 @@
                   class="downcv"
                   target="_blank"
                   href="assests/SHASHANK -Resume.pdf"
-                  >Download CV</a
+                  ><ion-icon
+                    class="icon-down"
+                    name="download-outline"
+                  ></ion-icon
+                  >Resume</a
                 >
               </div>
             </div>
@@ -90,7 +98,141 @@
           </div>
         </div>
       </section>
+      <section class="section-projects">
+        <div class="container-projects">
+          <h2 class="secondary-heading">Projects</h2>
+          <div class="project-cards">
+            <div class="card">
+              <h4 class="h4-text">Restaurant app landing page</h4>
+              <img src="assests/pro-img.png" alt="" class="pro-img" />
+              <div class="project-links">
+                <a
+                  href="https://github.com/Shashank8811/restaurant-landing-page"
+                  target="_blank"
+                  class="view-code"
+                  >View Code</a
+                >
+                <a
+                  href="https://shashank8811.github.io/restaurant-landing-page/"
+                  target="_blank"
+                  class="view-demo"
+                  >View Demo</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <h4 class="h4-text">QuoteCraft - quotes generator</h4>
+              <img src="assests/pro-img2.png" alt="" class="pro-img" />
+              <div class="project-links">
+                <a
+                  href="https://github.com/Shashank8811/random-quotes-generator"
+                  target="_blank"
+                  class="view-code"
+                  >View Code</a
+                >
+                <a
+                  href="https://quotecraft-randomquotes-generator.netlify.app/"
+                  class="view-demo"
+                  target="_blank"
+                  >View Demo</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <h4 class="h4-text">FreshVegz- Online store landing page</h4>
+              <img src="assests/pro-img3.png" alt="" class="pro-img" />
+              <div class="project-links">
+                <a
+                  href="https://github.com/Shashank8811/fresh-vegz"
+                  class="view-code"
+                  target="_blank"
+                  >View Code</a
+                >
+                <a
+                  href="https://freshvegz.netlify.app/"
+                  class="view-demo"
+                  target="_blank"
+                  >View Demo</a
+                >
+              </div>
+            </div>
+            <div class="see-more-pro">
+              <a
+                href="https://github.com/Shashank8811/"
+                class="see-more"
+                target="_blank"
+                >See more</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-contact">
+        <div class="container-contact">
+          <h2 class="secondary-heading">Contact Me</h2>
+          <div class="connect-with-me"></div>
+          <h4 class="h4-text">Reach out me on</h4>
+          <div class="s-profiles">
+            <a class="s-link" href=""
+              ><i class="fa-brands fa-linkedin fa-1x"></i
+            ></a>
+            <a class="s-link" href=""
+              ><i class="fa-brands fa-x-twitter fa-1x"></i>
+            </a>
+            <a class="s-link" href=""
+              ><i class="fa-brands fa-github fa-1x"></i
+            ></a>
+            <a class="s-link" href=""
+              ><i class="fa-solid fa-envelope fa-1x"></i
+            ></a>
+          </div>
+          <h4 class="h4-text">Or</h4>
+          <h4 class="h4-text">Fill out this form</h4>
+
+          <form action="" class="form-contact" netlify>
+            <label for="name">Name </label>
+            <input type="text" name="name" id="name" />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+            <button class="btn-submit">Submit</button>
+          </form>
+        </div>
+      </section>
     </main>
+    <footer>
+      <section class="section-footer">
+        <div class="footer-container">
+          <p class="copyright">
+            &copy;2024 SHASHANK C V | All rights reserved.
+          </p>
+          <div class="nav-list-footer">
+            <p>Connect with me</p>
+            <div class="s-profiles">
+              <a class="s-link" href=""
+                ><i class="fa-brands fa-linkedin fa-1x"></i
+              ></a>
+              <a class="s-link" href=""
+                ><i class="fa-brands fa-x-twitter fa-1x"></i>
+              </a>
+              <a class="s-link" href=""
+                ><i class="fa-brands fa-github fa-1x"></i
+              ></a>
+              <a class="s-link" href=""
+                ><i class="fa-solid fa-envelope fa-1x"></i
+              ></a>
+            </div>
+          </div>
+          <div class="for-inquries">
+            <p class="inq">For Inquieries and Collaborations</p>
+            <a class="fic-mail" href="mailto:shashankreddy1817@gmail.com"
+              >shashankreddy1817@gmail.com</a
+            >
+          </div>
+        </div>
+      </section>
+    </footer>
     <script src="script.js"></script>
     <script
       type="module"
@@ -99,6 +241,10 @@
     <script
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/4302e4cd52.js"
+      crossorigin="anonymous"
     ></script>
   </body>
 </html>
