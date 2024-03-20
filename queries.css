@@ -173,18 +173,20 @@
   }
 
   .other-links {
+    flex-direction: column;
     margin-top: 10px;
     gap: 14px;
   }
 
   .getin,
   .downcv {
-    padding: 6px 8px;
-    font-size: 14px;
+    width: 50vw;
+    padding: 6px;
+    font-size: 16px;
   }
   .section-about {
     margin-top: 6px;
-    height: 65vh;
+    height: 62vh;
     padding: 0 5%;
     display: flex;
     align-items: flex-start;
@@ -202,7 +204,7 @@
   }
   .about-text,
   .more-about-text {
-    line-height: 1.2;
+    line-height: 1.4;
     font-size: 12px;
   }
   .section-projects {
@@ -233,9 +235,13 @@
     width: 180px;
     height: 120px;
   }
+  .see-more {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
   .sectio-contact {
     padding: 0 5%;
-    height: 76vh;
+    height: 74vh;
   }
   .section-footer {
     padding: 0 0%;
