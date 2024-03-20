@@ -202,6 +202,7 @@
   }
   .about-text,
   .more-about-text {
+    line-height: 1.2;
     font-size: 12px;
   }
   .section-projects {
@@ -209,7 +210,7 @@
     align-items: center;
     justify-content: center;
     padding: 0 5%;
-    height: 96vh;
+    height: 98vh;
   }
   .project-cards {
     margin-top: 4px;
@@ -221,9 +222,11 @@
   .card {
     width: 280px;
     height: 260px;
+    box-shadow: none;
   }
   .project-links {
     gap: 16px;
+    font-size: 12px;
   }
 
   .pro-img {
@@ -232,7 +235,7 @@
   }
   .sectio-contact {
     padding: 0 5%;
-    height: 80vh;
+    height: 76vh;
   }
   .section-footer {
     padding: 0 0%;

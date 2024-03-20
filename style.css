@@ -220,10 +220,29 @@ a {
   gap: 14px;
   justify-content: flex-start;
   /* align-items: center; */
+  animation: about-animate 3s 1 ease-out;
 }
 .about-text,
 .more-about-text {
   font-size: 16px;
+}
+
+@keyframes about-animate {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* ...............section-projects................. */
