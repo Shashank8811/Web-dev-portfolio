@@ -111,10 +111,7 @@ a {
   flex-wrap: wrap;
   color: #fff;
 }
-.other-text {
-  font-size: 14px;
-  animation: animate-other 2s 1 alternate ease-in-out;
-}
+
 .other-links {
   text-align: center;
   margin-top: 6px;

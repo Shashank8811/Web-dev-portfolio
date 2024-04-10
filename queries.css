@@ -56,9 +56,7 @@
   #text {
     font-size: 18px;
   }
-  .other-text {
-    font-size: 12px;
-  }
+
   .other-links {
     margin-top: 4px;
     gap: 20px;
@@ -115,6 +113,12 @@
     margin-top: 4px;
     gap: 18px;
   }
+  .view-code,
+  .view-demo {
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 4px 6px;
+  }
   .see-more-pro {
     display: flex;
     justify-content: center;
@@ -163,13 +167,6 @@
     justify-content: center;
     align-items: center;
   }
-  .other-text {
-    /* display: none; */
-    text-align: center;
-    line-height: 1.2;
-    font-size: 14px;
-    font-weight: 500;
-  }
 
   .hero-img {
     display: none;
@@ -183,9 +180,9 @@
 
   .getin,
   .downcv {
-    width: 50vw;
+    width: 40vw;
     padding: 6px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .section-about {
     margin-top: 6px;
@@ -233,7 +230,12 @@
     gap: 16px;
     font-size: 12px;
   }
-
+  .view-code,
+  .view-demo {
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 4px 6px;
+  }
   .pro-img {
     width: 180px;
     height: 120px;
